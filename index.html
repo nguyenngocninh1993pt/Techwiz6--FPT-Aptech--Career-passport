@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareerPortal</title>
+    <link rel="icon" type="image/png" href="image/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="index">
+  <div id="animated-bg"></div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <a href="index.html" class="logo"><i class="fa-solid fa-briefcase"></i> CareerPortal</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" class="active">Home</a>
+      <a href="jobs.html">Careers</a>
+      <a href="tests.html">Assessments</a>
+      <a href="stories.html">Success Stories</a>
+      <a href="resources.html">Resources</a>
+      <a href="multimedia.html">Guides</a>
+      <a href="training.html">Training</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </header>
+
+  <!-- Sub-navbar -->
+  <div class="sub-navbar">
+    <div class="live-info">
+      <i class="fa-regular fa-clock"></i> <span id="live-time"></span>
+      <i class="fa-solid fa-user-group"></i> <span id="live-guests"></span>
+    </div>
+    <div class="auth-buttons">
+      <button class="btn-register"><i class="fa-solid fa-user-plus"></i> Register</button>
+      <button class="btn-login"><i class="fa-solid fa-right-to-bracket"></i> Login</button>
+    </div>
+  </div>
+
+  <!-- Banner Intro -->
+  <section class="intro-banner">
+    <h1>Career Guidance Portal</h1>
+    <p>Shape your future, build your success!</p>
+    <button id="startBtn" class="btn-start"><i class="fa-solid fa-arrow-right"></i> Get Started</button>
+  </section>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Wondering which career fits you best? <span id="user-name"></span></h1>
+    <p>Explore opportunities tailored to your skills and interests.</p>
+    <div class="action-buttons">
+      <button id="btnCheckTests" class="btn-check">
+        <i class="fa-solid fa-clipboard-check"></i> Take Interest Test
+      </button>
+      <button id="btnExploreJobs" class="btn-explore">
+        <i class="fa-solid fa-magnifying-glass"></i> Explore Careers
+      </button>
+    </div>
+  </section>
+
+  <!-- Main content -->
+  <main class="content">
+
+    <!-- Featured Jobs -->
+    <section class="featured-jobs cards-section">
+      <h2>Featured Careers</h2>
+      <div class="highlight-jobs cards-container">
+        <div class="job-card card">
+          <h3>UI/UX Design</h3>
+          <p>UI/UX Design improves user targeting and enhances learning experiences.</p>
+        </div>
+        <div class="job-card card">
+          <h3>Web Development</h3>
+          <p>Build professional websites for businesses and individuals.</p>
+        </div>
+        <div class="job-card card">
+          <h3>Digital Marketing</h3>
+          <p>Promote products through Social Media, boost revenue and engagement.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section class="stories-section cards-section">
+      <h2>Success Stories</h2>
+      <div class="stories-container cards-container">
+        <div class="story card">
+          <h3>John Nguyen</h3>
+          <p>From student to successful Web Developer at a top company.</p>
+        </div>
+        <div class="story card">
+          <h3>Anna Tran</h3>
+          <p>Mastered Digital Marketing and earned an international certificate in just 6 months.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources -->
+    <section class="resources-section cards-section">
+      <h2>Resource Library</h2>
+      <div class="resources-container cards-container">
+        <div class="resource card">
+          <h3>Career Books</h3>
+          <p>Guides to help you plan and navigate your career path.</p>
+        </div>
+        <div class="resource card">
+          <h3>Tutorial Videos</h3>
+          <p>Learn soft skills and programming effectively through videos.</p>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section class="about-section cards-section">
+      <h2>About Us</h2>
+      <div class="about-container cards-container">
+        <div class="about card">
+          <h3>Mission</h3>
+          <p>Support users in career orientation and personal development.</p>
+        </div>
+        <div class="about card">
+          <h3>Team</h3>
+          <p>A dedicated team of career experts with years of experience.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section cards-section">
+      <h2>Contact Us</h2>
+      <div class="contact-container cards-container">
+        <div class="info-box card">
+          <h3>Email</h3>
+          <p>info@careerportal.com</p>
+        </div>
+        <div class="info-box card">
+          <h3>Phone</h3>
+          <p>(028) 1234 5678</p>
+        </div>
+        <div class="info-box card">
+          <h3>Address</h3>
+          <p>123 Nguyen Thi Minh Khai, District 1, Ho Chi Minh City</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3><i class="fa-solid fa-compass"></i> Career Portal</h3>
+        <p>Helping you plan and develop your career effectively.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-briefcase"></i> Career Bank</a></li>
+          <li><a href="#"><i class="fa-solid fa-check"></i> Assessments</a></li>
+          <li><a href="#"><i class="fa-solid fa-book"></i> Resources</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <p><i class="fa-regular fa-envelope"></i> info@careerportal.com</p>
+        <p><i class="fa-solid fa-phone"></i> (028) 1234 5678</p>
+        <p><i class="fa-solid fa-location-dot"></i> Ho Chi Minh City</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 CareerPortal. Developed by Aptech.</div>
+  </footer>
+
+  <!-- Modal Form -->
+  <div id="userModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2>Please enter your information</h2>
+      <input type="text" id="userNameInput" placeholder="Enter your name" required>
+      <input type="email" id="userEmailInput" placeholder="Enter your email" required>
+      <div class="user-options">
+        <div class="user-btn" data-user="student">🎓 Student</div>
+        <div class="user-btn" data-user="postgrad">🎓 Graduate</div>
+        <div class="user-btn" data-user="professional">💼 Professional</div>
+      </div>
+      <button id="submitUser">Start</button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js" defer></script>
+  <script defer>
+    document.addEventListener("DOMContentLoaded", function () {
+      // VANTA Background
+      VANTA.NET({
+        el: "#animated-bg",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200,
+        minWidth: 200,
+        scale: 1.0,
+        scaleMobile: 0.8,
+        color: 0x4dd0e1,
+        backgroundColor: 0x0a0a0a,
+        points: 10.0,
+        maxDistance: 18.0,
+        spacing: 20.0,
+        mouseEase: 0.08
+      });
+
+      // Navbar toggle
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("navLinks");
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+        hamburger.classList.toggle("active");
+      });
+
+      // Live time/guests
+      function updateTime() {
+        const now = new Date();
+        document.getElementById('live-time').textContent =
+          `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}:${String(now.getSeconds()).padStart(2, '0')}`;
+      }
+      function updateGuests() {
+        document.getElementById('live-guests').textContent =
+          Math.floor(Math.random() * (2000 - 1000 + 1) + 1000) + " online";
+      }
+      updateTime();
+      updateGuests();
+      setInterval(updateTime, 1000);
+      setInterval(updateGuests, 5000);
+
+      // Modal
+      const startBtn = document.getElementById("startBtn");
+      const modal = document.getElementById("userModal");
+      const closeModal = document.querySelector(".close-modal");
+      startBtn.addEventListener("click", () => modal.style.display = "flex");
+      closeModal.addEventListener("click", () => modal.style.display = "none");
+      window.addEventListener("click", (e) => { if (e.target === modal) modal.style.display = "none"; });
+
+      // Navigation buttons
+      document.getElementById("btnCheckTests").addEventListener("click", () => {
+        window.location.href = "tests.html";
+      });
+      document.getElementById("btnExploreJobs").addEventListener("click", () => {
+        window.location.href = "jobs.html";
+      });
+
+      // Select user type
+      let selectedUser = null;
+      document.querySelectorAll(".user-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll(".user-btn").forEach(b => b.classList.remove("selected"));
+          btn.classList.add("selected");
+          selectedUser = btn.dataset.user;
+        });
+      });
+
+      // Submit modal
+      document.getElementById("submitUser").addEventListener("click", () => {
+        const name = document.getElementById("userNameInput").value.trim();
+        const email = document.getElementById("userEmailInput").value.trim();
+        if (!name || !email || !selectedUser) {
+          alert("Please fill in your name, email, and select your category!");
+          return;
+        }
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+          alert("Invalid email address!");
+          return;
+        }
+        sessionStorage.setItem("userName", name);
+        if (selectedUser === "student") window.location.href = "student.html";
+        else if (selectedUser === "postgrad") window.location.href = "postgrad.html";
+        else window.location.href = "career.html";
+      });
+    });
+  </script>
+</body>
+</html>
